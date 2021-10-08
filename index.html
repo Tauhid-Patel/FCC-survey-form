@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <main>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Gracias ! for filling out this form</p>
+
+        <form id="survey-form">
+            <label for="name">
+                <p id="name">Name</p><br><input type="text" placeholder="Enter your name" required>
+            </label><br><br>
+            <label for="email">
+                <p id="email">Email</p><br><input type="text" placeholder="Enter your email" required>
+            </label><br><br>
+            <label for="age">
+                <p id="age">Age</p><br><input type="number" placeholder="Enter your age" min="8" max="90" required>
+            </label><br><br>
+            
+            <label id="dropdown-team" for="cars">Choose your team: <br></label>
+                <select name="dropdown" id="dropdown">
+                    <option value="volvo">Germany</option>
+                    <option value="saab">France</option>
+                    <option value="mercedes">Portugal</option>
+                    <option value="audi">Spain</option>
+                </select>
+                <br><br>    
+
+            <p id="favourite-team">Select your favourite team:</p>    
+            <label for="portugal">
+                <input type="radio" name="team" value="Portugal">
+            </label>
+            <label for="germany">Germany<br>
+                <input type="radio" name="team" value="Germany">
+            </label>
+            <label for="spain">Spain<br>
+                <input type="radio" name="team" value="Spain">
+            </label>Portugal
+            <br><br><br>
+
+            <p id="goalscorer">Who will be the top goalscorer in this tournament ?<br></p>
+            <input type="checkbox" name="crsitiano" value="Cristiano"> Cristiano<br>
+            <input type="checkbox" name="mbappe" value="Mbappe"> Mbappe<br>
+            <input type="checkbox" name="lewandowski" value="Lewandowski"> Lewandowski<br>
+            <input type="checkbox" name="kane" value="Kane"> Kane<br>
+            <input type="checkbox" name="haaland" value="Haaland"> Haaland<br>
+            <br><br><br>
+
+            <label for="textarea">What are your thoughts on the upcoming EURO ?
+                <textarea rows="15" cols="75" placeholder="Write something here ..."></textarea>
+            </label>
+            <br><br><br>
+
+            <button type="submit" id="submit">Submit</button>
+            
+        </form>
+    </main>
+</body>
+</html>

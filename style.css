@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}   
+
+#title {
+    font-family: monospace;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 50px 40%;
+}
+
+#description {
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 300;
+    align-items: center;
+    margin: -40px 35%;
+}
+
+#survey-form {
+    width: 60%;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    background-color: none;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: 500;
+    box-shadow: 1px 3px 21px -10px rgba(0,0,0,0.55);
+}
+
+#name, #email, #age, #goalscorer {
+    position: relative;
+    left: 5%;
+    padding-top: 20px;
+}
+
+#dropdown-team {
+    position: relative;
+    top: 25px;
+    left: 10px;
+    padding-top: 20px;
+}
+
+label[for=cars] {
+    margin-left: 30px;
+}
+
+input[type=text], input[type=number] {
+    width: 50%;
+    padding: 15px 15px;
+    margin: -30px 32px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    border: red;
+}
+
+select {
+    width: 50%;
+    padding: 15px 15px;
+    margin: 40px 32px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#favourite-team {
+    position: relative;
+    left: 5%;
+    top: -5%;
+}
+
+input[type=radio], input[type=checkbox] {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#goalscorer {
+    padding-bottom: 15px;
+}
+
+label[for=textarea], textarea {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+#submit {
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    cursor: pointer;
+    width: 90%;
+    height: 50px;
+    background-color: #588adb;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+} 
+
+#submit:hover {
+    box-shadow: 1px 3px 21px -5px #588adb;
+}
